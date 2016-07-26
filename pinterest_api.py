@@ -265,4 +265,3 @@ class Pinterest(object):
 if __name__ == "__main__":
     p = Pinterest()
     user_info = p.get_current_user()
-    print (user_info.json())
